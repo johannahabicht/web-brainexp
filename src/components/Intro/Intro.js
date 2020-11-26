@@ -139,26 +139,21 @@ render() {
       <div>
         <div className="IntroConsentText">
           <p><span className="bold">INFORMATION FOR THE PARTICIPANT</span></p>
-          <p><span className="bold">Who is conducting this research study?</span></p>
           <p>This research is being conducted by the Wellcome Centre for Human Neuroimaging and the Max Planck UCL Centre for Computational Psychiatry and Ageing Research.</p>
-          <p>The lead researchers for this project are Vasilisa Skvortsova, Dr, (v.skvortsova@ucl.ac.uk) and Tobias Hauser, Dr, (t.hauser@ucl.ac.uk).</p>
+          <p>The lead researchers for this project are Alisa Loosen (a.loosen.17@ucl.ac.uk), MSc, Vasilisa Skvortsova, Dr, (v.skvortsova@ucl.ac.uk) and Tobias Hauser, Dr, (t.hauser@ucl.ac.uk).</p>
           <p>This study has been approved by the UCL Research Ethics Committee (project ID number 15301\001) and funded by the Wellcome Trust.</p>
           <p><span className="bold">What is the purpose of this study?</span></p>
-          <p>We are interested in how the adult brain controls learning and decision-making. For this purpose we developed a mobile app "Brain Explorer" that aims to provide insights into how the healthy brain works to help us understand the causes of a number of different medical conditions.</p>
+          <p>We are interested in how the adult brain controls learning and decision-making. This research aims to provide insights into how the healthy brain works to help us understand the causes of a number of different medical conditions.</p>
           <p><span className="bold">Who can take part in this study?</span></p>
           <p>Adults (aged 18 years or over).</p>
           <p><span className="bold">What will happen to me if I take part?</span></p> 
-          <p>First, you will have to install "Brain Explorer" app on your mobile phone or tablet. You will then be asked to play several games and answer questions about the games and your experience with the app.</p>
-          <p>You will also be asked some questions about yourself, your feelings, attitudes and behaviour in your everyday life.</p>
-          <p>In total experiment will last about an hour.</p>
-          <p>You will receive <span className="bold">£8.25</span> for helping us.</p>
-      
+          <p>You will play one or more online computer games, which will last around approximately 30 minutes in total.</p> 
+          <p>You will receive between <span className="bold">£8.25</span>for helping us.</p>
+          <p>You will also be asked some questions about yourself, your feelings, background, attitudes and behaviour in your everyday life.</p>
+          <p>There will also be some questions about reasoning.</p>
+          <p>For this experiment we are interested in multiple different processes in learning and decision-making.</p>
+          <p>After you complete this session, we will invite you to participate in further sessions. You will be compensated after completion of each session with <span className="bold">£8.25/h</span> and if you participate in the whole experiment you will receive a total of <span className="bold">£20.62</span>.</p>
           <br></br>
-      
-          <p><span className="bold">Note, that you have to complete all the games and answer all the questionnaires in order to validate your participation and receive the payment.</span></p>
-      
-          <br></br>
-          <p>For this experiment we are interested in your user experience with the cognitive games we have developed and your overall experience with the app.</p>
           <p>Remember, you are free to withdraw at any time without giving a reason.</p> 
           
           <p><span className="bold">What are the possible disadvantages and risks of taking part?</span></p>

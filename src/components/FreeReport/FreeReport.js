@@ -134,8 +134,8 @@ render() {
       <p></p>
       <div className="col-md-150 pad-600">
         <div>
-          <button type="button" className="btn btn-save btn-primary pad-20" disabled={!this.state.answercheck} onClick={this.handleSubmit}>Submit
-            </button>
+          <button type="button" className="btn btn-save btn-primary pad-20 width=20vh height-8vh" disabled={!this.state.answercheck} onClick={this.handleSubmit}>Submit
+          </button>
           </div>
       </div>
         </CSSTransitionGroup>
