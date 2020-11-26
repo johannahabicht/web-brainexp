@@ -266,6 +266,7 @@ render()
     { 
       text = <div className='SurveyIntroText'> <p>Dear Participant,</p>
       <p>Please, play <span className="bold">Treasure Hunt</span> game in the app.</p>
+      <p>First, go through the tutorial/instructions carefully.</p>
       <p>Once done, click CONTINUE.</p></div>
 
     return (
@@ -322,11 +323,12 @@ render()
     }
           
 
-    else if (this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey]!='App feedback')
+    else if (this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey].localeCompare('App feedback')===false)
     {
+
           // console.log(this.props.location.state.participant_info.block_number_survey)
 
-          text  = 'Thank you! Please, go back to the app and explore the ' + this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey+1] + ' planet now. Once done press CONTINUE!'
+          text  = 'Thank you! Please, go back to the app and explore the ' + this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey+1] + ' planet now. First, go through the tutorial/instructions carefully. Once done press CONTINUE!'
           icon_ = this.state.block_info.iconnames[this.props.location.state.participant_info.block_number_survey+1]  
         return (
           <div>
@@ -350,7 +352,7 @@ render()
 
     else 
     {
-      text = 'Thank you! Please, CONTINUE'
+      text = 'Thank you! Please, now feel free to explore the app and then continue to the final feedback assignment.'
         return (
       <div>
       <center>
