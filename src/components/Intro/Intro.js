@@ -126,12 +126,12 @@ class Intro extends React.Component {
 }
 
 /* This is for SURVEY DEBUG ONLY TO SKIP THE INSTALLATION INSTRUCTIONS*/ 
-directToSurvey () {
-    this.props.history.push({
-      pathname: `/Survey`,
-      state: {participant_info: this.state, newblock_frame:true} // the 'newblock_frame' variable is redundant but this simplifies the code
-    })
-  }
+// directToSurvey () {
+//     this.props.history.push({
+//       pathname: `/Survey`,
+//       state: {participant_info: this.state, newblock_frame:true} // the 'newblock_frame' variable is redundant but this simplifies the code
+//     })
+//   }
 
 
 render() {
@@ -201,13 +201,8 @@ render() {
           <p></p>
           <p>If there are any queries or concerns please do not hesitate to contact: Vasilisa Skvortsova, v.skvortsova@ucl.ac.uk</p>
         </div>
-        <div>
         <div className="buttonContainer">
           <Button type="button" onClick={()=>this.redirectToTarget()}>NEXT</Button>
-        </div>
-        <div className="buttonContainer">
-          <Button type="button" onClick={()=>this.directToSurvey()}>SURVEY-DEBUG</Button>
-        </div>
         </div>
         </div>  
     );
