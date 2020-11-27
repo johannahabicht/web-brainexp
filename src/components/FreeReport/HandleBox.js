@@ -126,7 +126,7 @@ render() {
     >
       <div key={this.props.questionId}>
         <br></br>
-        <div className="col-md-20 pad-400">
+        <div>
           <input type="text" inputmode="text" value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" className="form-control" placeholder="" type="text" inputMode="numeric" required />
         </div>
       </div>
