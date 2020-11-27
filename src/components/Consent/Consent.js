@@ -84,7 +84,7 @@ class Consent extends Component {
   window.onbeforeunload = this._handleRefresh
 
   _handleRefresh(evt){
-    return "";   // error message when refresh occurs
+    return ""   // false error message when refresh occurs
   }
 
   componentWillUnmount()
