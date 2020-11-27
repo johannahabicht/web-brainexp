@@ -127,8 +127,7 @@ render() {
       <div key={this.props.questionId}>
         <br></br>
         <div>
-        <form className={"flex flex-col self-center justify-between w-full"} id="create-course-form">
-          <textarea className={"form__username my-1 p-2 rounded border-gray-300 border border-solid"} type='text' inputmode='text' keyboardType='default' value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" className="form-control" placeholder="" type="text" inputMode="numeric" required />
+        <form className={"flex flex-col self-center justify-between w-full"} id="create-course-form"> rm-control" placeholder="" type="text" inputMode="text" required />
         </form>
         </div>
       </div>
