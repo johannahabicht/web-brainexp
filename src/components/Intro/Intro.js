@@ -148,11 +148,11 @@ render() {
           <p>Adults (aged 18 years or over).</p>
           <p><span className="bold">What will happen to me if I take part?</span></p> 
           <p>You will play one or more online computer games, which will last around approximately 30 minutes in total.</p> 
-          <p>You will receive between <span className="bold">£8.25</span>for helping us.</p>
+          <p>You will receive between <span className="bold">£8.25</span> for helping us.</p>
           <p>You will also be asked some questions about yourself, your feelings, background, attitudes and behaviour in your everyday life.</p>
           <p>There will also be some questions about reasoning.</p>
           <p>For this experiment we are interested in multiple different processes in learning and decision-making.</p>
-          <p>After you complete this session, we will invite you to participate in further sessions. You will be compensated after completion of each session with <span className="bold">£8.25/h</span> and if you participate in the whole experiment you will receive a total of <span className="bold">£20.62</span>.</p>
+          <p>After you complete this session, we will invite you to participate in the second session. You will be compensated after completion of each session with <span className="bold">£8.25/h</span> and if you participate in the whole experiment you will receive a total of <span className="bold">£16.50</span>.</p>
           <br></br>
           <p>Remember, you are free to withdraw at any time without giving a reason.</p> 
           

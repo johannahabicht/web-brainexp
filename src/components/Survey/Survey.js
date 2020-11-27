@@ -322,13 +322,12 @@ render()
           );        
     }
           
-
-    else if (this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey].localeCompare('App feedback')===false)
+    else if (this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey].localeCompare('App feedback'))
     {
 
           // console.log(this.props.location.state.participant_info.block_number_survey)
 
-          text  = 'Thank you! Please, go back to the app and explore the ' + this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey+1] + ' planet now. First, go through the tutorial/instructions carefully. Once done press CONTINUE!'
+          text  = 'Thank you! Please, go back to the app and explore the ' + this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey+1] + ' planet now. First, go through the tutorial carefully. Once done press CONTINUE!'
           icon_ = this.state.block_info.iconnames[this.props.location.state.participant_info.block_number_survey+1]  
         return (
           <div>
