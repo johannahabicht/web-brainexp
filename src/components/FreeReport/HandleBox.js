@@ -127,8 +127,8 @@ render() {
       <div key={this.props.questionId}>
         <br></br>
         <div>
-        <form>
-          <input value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" type="text" inputMode="text" className={"flex flex-col self-center justify-between w-full"} placeholder="" required/>
+        <form id="create-course-form">
+          <input value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" className="form-control" placeholder="" type="text" inputMode="text" required />
         </form>
         </div>
       </div>
