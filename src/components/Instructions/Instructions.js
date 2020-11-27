@@ -147,7 +147,7 @@ class Instructions extends React.Component {
 
         else if (this.state.currentInstructionText===2) {
         mytext = <div className='textbox'> <p></p> <p>Once consented, you will be asked some onboarding questions in the app. Please, answer the questions in order to continue.</p>
-                <p>"Please feel free to answer 'I prefer not to' if you do not want to share this information"</p> 
+                <p>"Please feel free to answer 'I prefer not to' if you do not want to share this information.</p> 
                 <div className="translate"/>
                 <p>Once completed, please go to <span className="bold">Profile</span> at the bottom right corner of your screen, then select <span className="bold">Settings.</span></p>
                 <p>Your handle would be on the top right (it is a code with 6 letters and numbers). Please enter your handle in the field below"</p>
