@@ -61,7 +61,7 @@ componentDidMount() {
   }
 
   _handleRefresh(evt){
-    return false // error message when refresh occurs
+    return "";   // false error message when refresh occurs
   }
 
   _handleGoBack(event){
