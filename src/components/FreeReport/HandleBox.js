@@ -127,7 +127,8 @@ render() {
       <div key={this.props.questionId}>
         <br></br>
         <div>
-        <form type="text" inputMode="text" className={"flex flex-col self-center justify-between w-full"} id="create-course-form" placeholder="" required/>
+        <form>
+          <textarea rows="1" type="text" inputMode="text" className={"flex flex-col self-center justify-between w-full"} id="create-course-form" placeholder="" required/>
         </form>
         </div>
       </div>
