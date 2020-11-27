@@ -280,7 +280,7 @@ render()
           <img className="iconsymbol"  src={require('../../images/treasurehunt_icon.png')} alt='iconsymbol'/> 
         </div>
         <center>
-          <Button className="buttonSurveyStart" onClick={()=>this.redirectToQuiz()}>
+          <Button className="btn btn-save btn-primary pad-20 width=20vh height-8vh" onClick={()=>this.redirectToQuiz()}>
             <span className="bold">CONTINUE</span>
           </Button>
         </center>
@@ -340,7 +340,7 @@ render()
               <img className="iconsymbol" src={require(`../../images/${icon_}`)} alt='iconsymbol'/> 
             </div>
             <center>
-            <Button className="buttonSurveyStart" onClick={()=>this.redirectToQuiz()}>
+            <Button className="btn btn-save btn-primary pad-20 width=20vh height-8vh" onClick={()=>this.redirectToQuiz()}>
               <span className="bold">CONTINUE</span>
             </Button>
             </center>
@@ -356,11 +356,11 @@ render()
       <div>
       <center>
       <div className="SurveyIntroText">
-        {text}           
+        {text}
       </div>
       <br></br>
       <center>
-            <Button className="buttonSurveyStart" onClick={()=> this.state.finished ? this.redirectToEnd() : this.redirectToQuiz()}>
+            <Button className="btn btn-save btn-primary pad-20 width=20vh height-8vh" onClick={()=> this.state.finished ? this.redirectToEnd() : this.redirectToQuiz()}>
               <span className="bold">CONTINUE</span>
             </Button>
             </center>

@@ -135,7 +135,7 @@ render() {
       <p></p>
       <div>
         <div>
-          <button type="button" className="btn btn-save btn-primary pad-40" disabled={!this.state.answercheck} onClick={this.handleSubmit}>Submit
+          <button type="button" className="btn btn-save btn-primary pad-20 width=20vh height-8vh" disabled={!this.state.answercheck} onClick={this.handleSubmit}>Submit
           </button>
           </div>
       </div>
