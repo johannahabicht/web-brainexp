@@ -126,16 +126,16 @@ render() {
     >
       <div key={this.props.questionId}>
         <br></br>
-        <div className="col-md-20 pad-400">
-        <form id="create-course-form">
-          <textarea type='text' inputmode='text' value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" className="form-control" placeholder="" type="text" inputMode="numeric" required />
+        <div className="col-md-20 pad-40">
+        <form className={"flex flex-col self-center justify-between w-full"} id="create-course-form">
+          <textarea className={"form__username my-1 p-2 rounded border-gray-300 border border-solid"} type='text' inputmode='text' value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" className="form-control" placeholder="" type="text" inputMode="numeric" required />
         </form>
         </div>
       </div>
       <p></p>
       <div className="col-md-20 pad-400">
         <div>
-          <button type="button" className="btn btn-save btn-primary pad-20" disabled={!this.state.answercheck} onClick={this.handleSubmit}>Submit
+          <button type="button" className="btn btn-save btn-primary pad-40" disabled={!this.state.answercheck} onClick={this.handleSubmit}>Submit
           </button>
           </div>
       </div>
