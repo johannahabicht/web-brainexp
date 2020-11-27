@@ -1,6 +1,6 @@
 .iconsymbol{
-  width: 20%;
-  height: 20%;
+  width: 30%;
+  height: 30%;
   margin-bottom:2%; 
   margin-top:2%
   
@@ -11,12 +11,12 @@
 
 
 .buttonSurveyStart{
-  width: 15%;
+  width: 10%;
   height: 10%;
   margin: 0 auto;
   border-radius: 0.5vh;
   margin-top:2vh;
-  font-size: 3vh;
+  font-size: 2vh;
   margin-bottom:2vh;
 
 }

@@ -50,10 +50,31 @@ class Instructions extends React.Component {
     }; 
 
     // Mount the component to call the BACKEND and GET the information
-    componentWillMount() {
-    document.body.style.background = "fff";  
-    } 
     
+
+componentDidMount() {  
+  this._isMounted = true;
+  document.body.style.background= '#fff';   
+  this._isMounted && this.fetchBlock(this.state.participant_info.game_id,this.state.participant_info.block_number+1);
+  this._isMounted && this.fetchSymbols(this.state.participant_info.game_id,this.state.participant_info.block_number+1);
+  window.history.pushState(window.state, null, window.location.href);
+  window.addEventListener('popstate', e => this._handleGoBack(e));
+  window.onbeforeunload = this._handleRefresh
+  }
+
+  _handleRefresh(evt){
+    return false // error message when refresh occurs
+  }
+
+  _handleGoBack(event){
+    window.history.go(1);
+  }
+
+  componentWillUnmount()
+  {
+   this._isMounted = false;
+  }  
+
     
     // Transition between the instruction screens   
     handleInstructionsLocal(event){
