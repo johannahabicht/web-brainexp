@@ -55,8 +55,6 @@ class Instructions extends React.Component {
 componentDidMount() {  
   this._isMounted = true;
   document.body.style.background= '#fff';   
-  this._isMounted && this.fetchBlock(this.state.participant_info.game_id,this.state.participant_info.block_number+1);
-  this._isMounted && this.fetchSymbols(this.state.participant_info.game_id,this.state.participant_info.block_number+1);
   window.history.pushState(window.state, null, window.location.href);
   window.addEventListener('popstate', e => this._handleGoBack(e));
   window.onbeforeunload = this._handleRefresh
