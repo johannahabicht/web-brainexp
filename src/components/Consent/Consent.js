@@ -76,20 +76,29 @@ class Consent extends Component {
   }
 
 
-  componentDidMount() { 
+  componentDidMount() {  
   this._isMounted = true;
-  document.body.style.background= '#fff'; 
-    window.history.pushState(window.state, null, window.location.href);
-    window.addEventListener('popstate', e => this._handleGoBack(e));
-  
+  document.body.style.background= '#fff';   
+  window.history.pushState(window.state, null, window.location.href);
+  window.addEventListener('popstate', e => this._handleGoBack(e));
+  window.onbeforeunload = this._handleRefresh
   }
 
-_handleGoBack(event){
+  _handleRefresh(evt){
+    return false // error message when refresh occurs
+  }
+
+  componentWillUnmount()
+  {
+   this._isMounted = false;
+  }  
+
+
+  _handleGoBack(event){
     window.history.go(1);
   }
 
-
-handleCheckboxChange(changeEvent,e) {
+  handleCheckboxChange(changeEvent,e) {
   // console.log('ChangeEvent',changeEvent)
   this.setState(prevState => ({
       checkboxes: {
