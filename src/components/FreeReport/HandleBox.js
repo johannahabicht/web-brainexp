@@ -128,7 +128,7 @@ render() {
         <br></br>
         <div className="col-md-20 pad-400">
         <form id="create-course-form">
-          <textarea value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" className="form-control" placeholder="" type="text" inputMode="numeric" required />
+          <textarea type='text' inputmode='text' value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" className="form-control" placeholder="" type="text" inputMode="numeric" required />
         </form>
         </div>
       </div>
