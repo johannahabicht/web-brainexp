@@ -128,7 +128,7 @@ render() {
         <br></br>
         <div>
         <form>
-          <textarea rows="1" type="text" inputMode="text" className={"flex flex-col self-center justify-between w-full"} id="create-course-form" placeholder="" required></textarea>
+          <input type="text" inputMode="text" className={"flex flex-col self-center justify-between w-full"} id="create-course-form" placeholder="" required></input>
         </form>
         </div>
       </div>
