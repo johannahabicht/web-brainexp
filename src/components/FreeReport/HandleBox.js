@@ -128,7 +128,7 @@ render() {
         <br></br>
         <div>
         <form>
-          <input type="text" inputMode="text" className={"flex flex-col self-center justify-between w-full"} id="create-course-form" placeholder="" required/>
+          <input value={this.state.report} onKeyDown={this._handleRefresh} onChange={this.handleChangeReport} name="report" id="report" type="text" inputMode="text" className={"flex flex-col self-center justify-between w-full"} placeholder="" required/>
         </form>
         </div>
       </div>
