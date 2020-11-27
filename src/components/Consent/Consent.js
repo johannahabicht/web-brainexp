@@ -82,6 +82,7 @@ class Consent extends Component {
   window.history.pushState(window.state, null, window.location.href);
   window.addEventListener('popstate', e => this._handleGoBack(e));
   window.onbeforeunload = this._handleRefresh
+}
 
   _handleRefresh(evt){
     return ""   // false error message when refresh occurs
