@@ -223,7 +223,8 @@ NoShuffleArray(array) {
     }
 
     let body     = {        'participant_id'  : this.state.participant_info.participant_id, 
-                            'prolific_id'     : this.state.participant_info.prolific_id, 
+                            'prolific_id'     : this.state.participant_info.prolific_id,
+                            'handle'          : this.state.participant_info.handle, 
                             'block_number'    : this.state.participant_info.block_number_survey+1, 
                             'block_name'      : this.props.location.state.block_info.surveytag, 
                             'question_ids'    : this.state.answered_questionsId, 
@@ -232,7 +233,6 @@ NoShuffleArray(array) {
                             'date_time_survey_start'  : this.state.date_time_start,
                             'date_time_survey_end'    : date_time_now,
                             'date_time'       : this.props.location.state.participant_info.date_time, 
-                            'date'            : this.props.location.state.participant_info.date, 
                           }
 
   fetch(`${API_URL}/participants_question_data/create/` + this.state.participant_info.participant_id + `/` + block_id + `/` + this.state.participant_info.prolific_id, {
