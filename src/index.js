@@ -22,7 +22,7 @@ const RefreshRoute = ({ component: Component, isDataAvailable, ...rest }) => (
       ) : (
         <Redirect
           to={{
-            pathname: "/"
+            pathname: "/Instructions"
           }}
         />
       )

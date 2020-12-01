@@ -45,7 +45,7 @@ var quizQuestions = [
        answers: [
           {
               type: "app-1",
-              content: "Novice"
+              content: "Space Novice"
           },
           {
               type: "app-2",
@@ -54,16 +54,22 @@ var quizQuestions = [
 
           {
               type: "app-3",
-              content: "Space Captain"
+              content: "Special Space Agent"
           },
 
           {
               type: "app-4",
-              content: "Space Admiral"
+              content: "Space Captain"
           },
 
           {
               type: "app-5",
+              content: "Space Admiral"
+          },
+
+
+          {
+              type: "app-6",
               content: "Don't see any ranks. Don't know what it is"
           },
       ],

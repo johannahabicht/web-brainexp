@@ -257,7 +257,7 @@ class Survey extends React.Component {
       window.location = 'https://app.prolific.co/submissions/complete?cc=67D0ACA0' // + this.props.location.state.participant_info.study_id // CHECK if validation code == stidu id
   }
   
-
+  
 render()
   { 
     let text
