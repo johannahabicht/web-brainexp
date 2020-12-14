@@ -265,7 +265,7 @@ render()
     { 
       text = <div className='SurveyIntroText'> <p>Dear Participant,</p>
       <p>Please, now play <span className="bold">Treasure Hunt</span> game in the app.</p>
-      <p>You should complete the game <span className="bold">just onc to win 1 star</span>.</p>
+      <p>You should complete the game <span className="bold">just once to win 1 star</span>.</p>
       <p>You don't have to complete all 5 stars for the game!</p>
       <p>But first, go through the tutorial carefully.</p>
       <p>Once done, click CONTINUE.</p></div>
