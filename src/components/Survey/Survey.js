@@ -265,7 +265,8 @@ render()
     { 
       text = <div className='SurveyIntroText'> <p>Dear Participant,</p>
       <p>Please, now play <span className="bold">Treasure Hunt</span> game in the app.</p>
-      <p>You should complete the game <span className="bold">just once </span>.</p>
+      <p>You should complete the game <span className="bold">just onc to win 1 star</span>.</p>
+      <p>You don't have to complete all 5 stars for the game!</p>
       <p>But first, go through the tutorial carefully.</p>
       <p>Once done, click CONTINUE.</p></div>
 
@@ -327,7 +328,7 @@ render()
 
           // console.log(this.props.location.state.participant_info.block_number_survey)
 
-          text  = 'Thank you! Please, go back to the app and explore the ' + this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey+1] + ' planet now. Again, just complete the game once but first, go through the tutorial carefully. Once done press CONTINUE!'
+          text  = 'Thank you! Please, go back to the app and explore the ' + this.state.block_info.survey_names[this.props.location.state.participant_info.block_number_survey+1] + ' planet now. Again, just complete the game ONCE.'
           icon_ = this.state.block_info.iconnames[this.props.location.state.participant_info.block_number_survey+1]  
         return (
           <div>
