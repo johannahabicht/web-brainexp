@@ -234,7 +234,8 @@ NoShuffleArray(array) {
                             'date_time_survey_end'    : date_time_now,
                             'date_time'       : this.props.location.state.participant_info.date_time, 
                           }
-
+  console.log(body)
+  
   fetch(`${API_URL}/participants_question_data/create/` + this.state.participant_info.participant_id + `/` + block_id + `/` + this.state.participant_info.prolific_id, {
        method: 'POST',
        headers: {
